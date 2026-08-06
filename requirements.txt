@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+joblib
+scikit-learn
+
+# Force push to ensure the file reaches the repository
+!git add requirements.txt
+!git commit -m "Ensure requirements.txt is present for deployment"
+!git push -u origin main --force
+print('\n✅ requirements.txt has been pushed to GitHub!')
